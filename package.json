@@ -1,0 +1,16 @@
+{
+  "name": "jwst-nasa-scraping",
+  "version": "1.0.0",
+  "description": "scrape www.jwst.nasa.gov",
+  "main": "index.js",
+  "type": "module",
+  "author": "achmadawdi.com",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "puppeteer": "^13.0.1"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
