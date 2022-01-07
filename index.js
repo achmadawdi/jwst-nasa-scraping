@@ -19,10 +19,13 @@ import fs from 'fs';
             let percentageDistance = getText('#percentageCompleted', 'float')
             let speedMi = getText('#speedMi', 'float')
             let data = {
-                earthDistance: earthDistance,
-                l2Distance: l2Distance,
-                percentageDistance: percentageDistance,
-                cruisingSpeed: speedMi
+                "imperial" : {
+                    "earthDistance": earthDistance,
+                    "l2Distance": l2Distance,
+                    "percentageDistance": percentageDistance,
+                    "cruisingSpeed": speedMi
+                },
+                "lastUpdated": new Date().toISOString()      
             }           
             return JSON.stringify(data, null, 2);
         });        

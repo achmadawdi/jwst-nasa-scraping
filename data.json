@@ -1,6 +1,9 @@
 {
-  "earthDistance": 624911.1,
-  "l2Distance": 273797.4,
-  "percentageDistance": 69.5342,
-  "cruisingSpeed": 0.2755
+  "imperial": {
+    "earthDistance": 643562.4,
+    "l2Distance": 255146.1,
+    "percentageDistance": 71.6095,
+    "cruisingSpeed": 0.2625
+  },
+  "lastUpdated": "2022-01-07T16:37:50.699Z"
 }
